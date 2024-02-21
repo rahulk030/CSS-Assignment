@@ -1,0 +1,64 @@
+/* styles.css */
+@font-face {
+    font-family:'Roboto' ;
+    src: url("RobotoMono-VariableFont_wght.ttf");
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    background: rgb(12, 10, 13);
+}
+
+/* Header styles */
+header {
+    background-color: #101110;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+    
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100vh;
+    background: url(music.jpeg) 0px 0px / 1000px 1000px;
+    box-shadow: 25px 25px 25px;
+}
+
+/* Lyrics section styles */
+.lyrics {
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    font-family: 'Roboto';
+    color: aliceblue;
+    font: bold ;
+
+    
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #070606;
+    color: #fff;
+    
+}
